@@ -1,4 +1,4 @@
-const BASE = import.meta.env.VITE_API_URL || "http://localhost:8000";
+const BASE = import.meta.env.VITE_API_URL || "https://kjhwr7x.onrender.com";
 
 export async function api(path, params = {}) {
   const qs = new URLSearchParams(params).toString();
