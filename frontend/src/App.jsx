@@ -170,12 +170,12 @@ export default function App() {
   return (
     <div className="page">
       <header>
-        <div><h1>WindWise</h1><p className="muted">GB day-ahead wind forecast portal · January 2026</p></div>
-        <div className="controls">
-          <label>Decision cutoff (London, day before)
-            <input type="time" value={cutoff} onChange={(e) => e.target.value && setCutoff(e.target.value)} />
-          </label>
-        </div>
+          <div>
+            <h1>WindWise Forecast Portal</h1>
+            <p className="muted">
+              GB Day-Ahead Wind Generation Analytics · January 2026
+            </p>
+          </div>
       </header>
       <nav>
         <button className={tab === "decision" ? "on" : ""} onClick={() => setTab("decision")}>Decision view</button>
