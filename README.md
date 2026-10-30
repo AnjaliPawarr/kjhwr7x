@@ -4,7 +4,7 @@ Web app for a day-ahead power-buying team. It shows (1) the latest wind forecast
 available at decision time and (2) how accurate those forecasts were in January 2026.
 Data: Elexon BMRS only – `WINDFOR` (forecasts) and `FUELHH` (actuals, `fuelType = WIND`).
 
-**Live app:** <ADD VERCEL / HEROKU / RENDER LINK>  
+**Live app:** <https://kjhwr7x.vercel.app/>
 **Demo video:** <ADD UNLISTED YOUTUBE LINK>
 
 ## AI tool disclosure
