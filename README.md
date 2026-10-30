@@ -1,4 +1,4 @@
-# WindWise – GB day-ahead wind forecast portal
+# WindWise forecast portal
 
 Web app for a day-ahead power-buying team. It shows (1) the latest wind forecast that was
 available at decision time and (2) how accurate those forecasts were in January 2026.
